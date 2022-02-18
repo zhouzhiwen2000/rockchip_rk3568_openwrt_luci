@@ -80,7 +80,7 @@ config statistics 'collectd_disk'
 
 config statistics 'collectd_dns'
 	option enable '0'
-	option Interfaces 'br-lan'
+	option Interfaces 'br-lan eth0 usb0 wwan0'
 	option IgnoreSources '127.0.0.1'
 
 config statistics 'collectd_entropy'
